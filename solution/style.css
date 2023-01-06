@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+}
+
+/* Header */
+.header{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    height: 655px; /*Specific height for the header and the color to bet applied*/
+    gap: 5em; /* Gives a gap between the nav and the header-text */   
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 10em;
+    padding-top: 15px;
+}
+
+.header-text{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.left-nav{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    text-decoration: none;
+    margin-left: 90px;
+}
+
+.right-nav > a {
+    margin-right: 20px;
+}
+
+.right-nav{
+    margin-right: 80px;
+}
+
+.text > h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.right-nav a, 
+p { 
+    font-size: 18px;
+    color: #e5e7eb;
+    filter: contrast(70%);
+    text-decoration: none;
+}
+.text{
+    width: 400px;
+}
+
+.text > button {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Second Section/Header*/
+
+.second-header{
+    height: 500px;
+}
+
+.info-box > h2 {
+    margin: 1.5em 0;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.box {
+    border: 5px solid rgb(100, 155, 243);
+    height: 170px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.box > p {
+    margin-top: 10em;
+    filter: contrast(30%);
+}
+
+
+/* Third Header/Section */
+.third-header{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8em 10em;
+}
+
+em{
+    font-size: 36px;
+    color: #1f2937;
+    filter: contrast(30%);
+}
+
+.third-header > p {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bolder;
+    color:black;
+    margin:0;
+    padding: 0;
+}
+/* Last Header */
+
+.end-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7em 13em;
+}
+
+.text-button{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 4em;
+    gap: 50px;
+    border-radius: 10px;
+}
+
+.info-button{
+    width:500px;
+}
+.text-button > button {
+    border-radius: 10px;
+    width: 130px;
+    background-color: #3882f6;
+    border:2px solid white;
+    color: white;
+}
+
+.info-button p {
+    color: white;
+    filter: contrast(100%);
+}
+
+/* Footer */
+
+.footer > p {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 2em 5em;
+    color: white;
+}
